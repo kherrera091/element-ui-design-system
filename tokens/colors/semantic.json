@@ -1,0 +1,113 @@
+{
+  "color": {
+    "semantic": {
+      "action": { "value": "{color.base.primary.value}" },
+      "success": { "value": "{color.base.tertiary.value}" },
+      "warning": { "value": "#FBBF24" },
+      "danger": { "value": "#EF4444" },
+      "info": { "value": "#3B82F6" },
+      "background": {
+        "default": { "value": "{color.base.neutral.100.value}" },
+        "muted": { "value": "{color.base.neutral.200.value}" },
+        "inverse": { "value": "{color.base.neutral.900.value}" },
+        "overlay": { "value": "rgba(0, 0, 0, 0.5)" }
+      },
+      "text": {
+        "primary": { "value": "{color.base.neutral.900.value}" },
+        "secondary": { "value": "{color.base.neutral.700.value}" },
+        "disabled": { "value": "{color.base.neutral.500.value}" },
+        "inverse": { "value": "{color.base.neutral.100.value}" },
+        "link": { "value": "{color.base.primary.value}" },
+        "linkHover": { "value": "#1E40AF" }
+      },
+      "border": {
+        "default": { "value": "{color.base.neutral.400.value}" },
+        "focus": { "value": "{color.base.primary.value}" },
+        "muted": { "value": "{color.base.neutral.300.value}" },
+        "strong": { "value": "{color.base.neutral.600.value}" },
+        "inverse": { "value": "{color.base.neutral.500.value}" }
+      },
+      "surface": {
+        "primary": { "value": "{color.base.neutral.100.value}" },
+        "secondary": { "value": "{color.base.neutral.200.value}" },
+        "tertiary": { "value": "{color.base.neutral.300.value}" },
+        "inverse": { "value": "{color.base.neutral.800.value}" },
+        "overlay": { "value": "rgba(255, 255, 255, 0.9)" }
+      },
+      "feedback": {
+        "success": {
+          "background": { "value": "rgba(16, 185, 129, 0.1)" },
+          "border": { "value": "{color.semantic.success.value}" },
+          "text": { "value": "#065F46" }
+        },
+        "warning": {
+          "background": { "value": "rgba(251, 191, 36, 0.1)" },
+          "border": { "value": "{color.semantic.warning.value}" },
+          "text": { "value": "#92400E" }
+        },
+        "danger": {
+          "background": { "value": "rgba(239, 68, 68, 0.1)" },
+          "border": { "value": "{color.semantic.danger.value}" },
+          "text": { "value": "#991B1B" }
+        },
+        "info": {
+          "background": { "value": "rgba(59, 130, 246, 0.1)" },
+          "border": { "value": "{color.semantic.info.value}" },
+          "text": { "value": "#1E40AF" }
+        }
+      },
+      "status": {
+        "online": { "value": "#10B981" },
+        "offline": { "value": "#6B7280" },
+        "busy": { "value": "#EF4444" },
+        "away": { "value": "#F59E0B" },
+        "pending": { "value": "#8B5CF6" },
+        "maintenance": { "value": "#F97316" }
+      },
+      "interactive": {
+        "primary": {
+          "default": { "value": "{color.semantic.action.value}" },
+          "hover": { "value": "#1E40AF" },
+          "active": { "value": "#1E3A8A" },
+          "disabled": { "value": "{color.base.neutral.400.value}" }
+        },
+        "secondary": {
+          "default": { "value": "{color.base.secondary.value}" },
+          "hover": { "value": "#5B21B6" },
+          "active": { "value": "#4C1D95" },
+          "disabled": { "value": "{color.base.neutral.400.value}" }
+        },
+        "tertiary": {
+          "default": { "value": "{color.base.tertiary.value}" },
+          "hover": { "value": "#059669" },
+          "active": { "value": "#047857" },
+          "disabled": { "value": "{color.base.neutral.400.value}" }
+        },
+        "destructive": {
+          "default": { "value": "{color.semantic.danger.value}" },
+          "hover": { "value": "#DC2626" },
+          "active": { "value": "#B91C1C" },
+          "disabled": { "value": "{color.base.neutral.400.value}" }
+        },
+        "ghost": {
+          "default": { "value": "transparent" },
+          "hover": { "value": "{color.base.neutral.100.value}" },
+          "active": { "value": "{color.base.neutral.200.value}" },
+          "disabled": { "value": "transparent" }
+        }
+      },
+      "chart": {
+        "primary": { "value": "{color.base.primary.value}" },
+        "secondary": { "value": "{color.base.secondary.value}" },
+        "tertiary": { "value": "{color.base.tertiary.value}" },
+        "quaternary": { "value": "#F59E0B" },
+        "quinary": { "value": "#EF4444" },
+        "senary": { "value": "#8B5CF6" },
+        "gradient": {
+          "start": { "value": "{color.base.primary.value}" },
+          "end": { "value": "{color.base.secondary.value}" }
+        }
+      }
+    }
+  }
+}

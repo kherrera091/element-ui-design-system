@@ -1,0 +1,31 @@
+{
+    "font": {
+      "family": {
+        "base": { "value": "system-ui, -apple-system, BlinkMacSystemFont, sans-serif" },
+        "heading": { "value": "system-ui, -apple-system, BlinkMacSystemFont, sans-serif" },
+        "mono": { "value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" }
+      },
+      "weight": {
+        "regular": { "value": "400" },
+        "medium": { "value": "500" },
+        "semibold": { "value": "600" },
+        "bold": { "value": "700" }
+      },
+      "size": {
+        "xs": { "value": "12px" },
+        "sm": { "value": "14px" },
+        "md": { "value": "16px" },
+        "lg": { "value": "18px" },
+        "xl": { "value": "20px" },
+        "2xl": { "value": "24px" },
+        "3xl": { "value": "30px" },
+        "4xl": { "value": "36px" },
+        "5xl": { "value": "48px" }
+      },
+      "lineHeight": {
+        "tight": { "value": "1.2" },
+        "base": { "value": "1.5" },
+        "relaxed": { "value": "1.75" }
+      }
+    }
+  }

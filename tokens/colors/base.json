@@ -1,0 +1,20 @@
+{
+    "color": {
+      "base": {
+        "primary": { "value": "#2563EB" },
+        "secondary": { "value": "#6D28D9" },
+        "tertiary": { "value": "#10B981" },
+        "neutral": {
+          "100": { "value": "#FFFFFF" },
+          "200": { "value": "#F9FAFB" },
+          "300": { "value": "#F3F4F6" },
+          "400": { "value": "#E5E7EB" },
+          "500": { "value": "#D1D5DB" },
+          "600": { "value": "#9CA3AF" },
+          "700": { "value": "#6B7280" },
+          "800": { "value": "#4B5563" },
+          "900": { "value": "#1F2937" }
+        }
+      }
+    }
+  }

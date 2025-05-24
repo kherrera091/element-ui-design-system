@@ -1,0 +1,26 @@
+{
+  "name": "element-ui-design-system",
+  "version": "1.4.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "style-dictionary build --config config.js",
+    "clean": "rm -rf build",
+    "build:clean": "npm run clean && npm run build",
+    "sync:figma": "node scripts/sync-figma.js",
+    "changelog:start": "node scripts/changelog-helper.js start",
+    "changelog:finalize": "node scripts/changelog-helper.js finalize",
+    "changelog:help": "node scripts/changelog-helper.js help",
+    "release": "node scripts/release.js",
+    "release:patch": "node scripts/release.js patch",
+    "release:minor": "node scripts/release.js minor",
+    "release:major": "node scripts/release.js major",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "style-dictionary": "^4.4.0"
+  }
+}

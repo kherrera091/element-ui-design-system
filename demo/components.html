@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElementUI Components Documentation</title>
+  <link rel="stylesheet" href="../build/css/variables.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="components.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ElementUI Component Library</h1>
+      <p class="subtitle">Comprehensive component documentation using design tokens</p>
+      <nav class="demo-nav">
+        <a href="index.html">Design Tokens</a>
+        <a href="components.html" class="active">Components</a>
+      </nav>
+    </header>
+
+    <!-- Button Components -->
+    <section class="section">
+      <h2>Buttons</h2>
+      
+      <div class="component-example">
+        <h3>Button Variants</h3>
+        <div class="example-showcase">
+          <button class="btn btn-primary">Primary</button>
+          <button class="btn btn-secondary">Secondary</button>
+          <button class="btn btn-success">Success</button>
+          <button class="btn btn-warning">Warning</button>
+          <button class="btn btn-danger">Danger</button>
+          <button class="btn btn-outline">Outline</button>
+          <button class="btn btn-ghost">Ghost</button>
+        </div>
+        
+        <div class="code-example">
+          <h4>HTML</h4>
+          <pre><code>&lt;button class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button class="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+&lt;button class="btn btn-success"&gt;Success&lt;/button&gt;</code></pre>
+        </div>
+      </div>
+
+      <div class="component-example">
+        <h3>Button Sizes</h3>
+        <div class="example-showcase">
+          <button class="btn btn-primary btn-sm">Small</button>
+          <button class="btn btn-primary">Medium</button>
+          <button class="btn btn-primary btn-lg">Large</button>
+        </div>
+        
+        <div class="code-example">
+          <h4>HTML</h4>
+          <pre><code>&lt;button class="btn btn-primary btn-sm"&gt;Small&lt;/button&gt;
+&lt;button class="btn btn-primary"&gt;Medium&lt;/button&gt;
+&lt;button class="btn btn-primary btn-lg"&gt;Large&lt;/button&gt;</code></pre>
+        </div>
+      </div>
+
+      <div class="component-example">
+        <h3>Button States</h3>
+        <div class="example-showcase">
+          <button class="btn btn-primary">Normal</button>
+          <button class="btn btn-primary" disabled>Disabled</button>
+          <button class="btn btn-primary btn-loading">Loading</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Card Components -->
+    <section class="section">
+      <h2>Cards</h2>
+      
+      <div class="component-example">
+        <h3>Basic Cards</h3>
+        <div class="card-grid">
+          <div class="card">
+            <div class="card-header">
+              <h4>Basic Card</h4>
+            </div>
+            <div class="card-body">
+              <p>This is a basic card with header and body content.</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary btn-sm">Action</button>
+            </div>
+          </div>
+
+          <div class="card card-elevated">
+            <div class="card-header">
+              <h4>Elevated Card</h4>
+            </div>
+            <div class="card-body">
+              <p>This card uses elevation for visual hierarchy.</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-primary btn-sm">Action</button>
+            </div>
+          </div>
+
+          <div class="card card-interactive">
+            <div class="card-body">
+              <h4>Interactive Card</h4>
+              <p>This card responds to hover interactions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Components -->
+    <section class="section">
+      <h2>Form Elements</h2>
+      
+      <div class="component-example">
+        <h3>Input Fields</h3>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="input-default">Default Input</label>
+            <input type="text" id="input-default" class="form-input" placeholder="Enter text">
+          </div>
+          
+          <div class="form-group">
+            <label for="input-success">Success State</label>
+            <input type="text" id="input-success" class="form-input form-input-success" value="Valid input">
+          </div>
+          
+          <div class="form-group">
+            <label for="input-error">Error State</label>
+            <input type="text" id="input-error" class="form-input form-input-error" value="Invalid input">
+            <span class="form-error">This field is required</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="component-example">
+        <h3>Select and Textarea</h3>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="select-default">Select Dropdown</label>
+            <select id="select-default" class="form-select">
+              <option>Choose an option</option>
+              <option>Option 1</option>
+              <option>Option 2</option>
+              <option>Option 3</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="textarea-default">Textarea</label>
+            <textarea id="textarea-default" class="form-textarea" rows="4" placeholder="Enter your message"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alert Components -->
+    <section class="section">
+      <h2>Alerts</h2>
+      
+      <div class="component-example">
+        <h3>Alert Variants</h3>
+        <div class="alert-stack">
+          <div class="alert alert-info">
+            <strong>Info:</strong> This is an informational alert.
+          </div>
+          
+          <div class="alert alert-success">
+            <strong>Success:</strong> Your action was completed successfully.
+          </div>
+          
+          <div class="alert alert-warning">
+            <strong>Warning:</strong> Please review this information carefully.
+          </div>
+          
+          <div class="alert alert-danger">
+            <strong>Error:</strong> An error occurred while processing your request.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Badge Components -->
+    <section class="section">
+      <h2>Badges</h2>
+      
+      <div class="component-example">
+        <h3>Badge Variants</h3>
+        <div class="example-showcase">
+          <span class="badge badge-primary">Primary</span>
+          <span class="badge badge-secondary">Secondary</span>
+          <span class="badge badge-success">Success</span>
+          <span class="badge badge-warning">Warning</span>
+          <span class="badge badge-danger">Danger</span>
+          <span class="badge badge-info">Info</span>
+        </div>
+      </div>
+
+      <div class="component-example">
+        <h3>Badge with Text</h3>
+        <div class="example-showcase">
+          <span>Notifications <span class="badge badge-danger">5</span></span>
+          <span>Messages <span class="badge badge-primary">12</span></span>
+          <span>Status <span class="badge badge-success">Active</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Add this new section after the Badge section -->
+<section class="section">
+    <h2>Status Indicators</h2>
+    
+    <div class="component-example">
+      <h3>User Status</h3>
+      <div class="example-showcase">
+        <div class="status-indicator">
+          <span class="status-dot online"></span>
+          <span>Online</span>
+        </div>
+        <div class="status-indicator">
+          <span class="status-dot offline"></span>
+          <span>Offline</span>
+        </div>
+        <div class="status-indicator">
+          <span class="status-dot busy"></span>
+          <span>Busy</span>
+        </div>
+        <div class="status-indicator">
+          <span class="status-dot away"></span>
+          <span>Away</span>
+        </div>
+        <div class="status-indicator">
+          <span class="status-dot pending"></span>
+          <span>Pending</span>
+        </div>
+      </div>
+      
+      <div class="code-example">
+        <h4>HTML</h4>
+        <pre><code>&lt;div class="status-indicator"&gt;
+    &lt;span class="status-dot online"&gt;&lt;/span&gt;
+    &lt;span&gt;Online&lt;/span&gt;
+  &lt;/div&gt;</code></pre>
+      </div>
+    </div>
+  </section>
+
+  </div>
+</body>
+</html>
